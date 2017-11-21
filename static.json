@@ -5,7 +5,7 @@
   },
   "proxies": {
     "/api/": {
-      "origin": "you api url"
+      "origin": process.env.CLIENT_ORIGIN
     }
   }
 }
