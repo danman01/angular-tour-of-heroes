@@ -5,7 +5,7 @@
   },
   "proxies": {
     "/api/": {
-      "origin": JSON.stringify(process.env.CLIENT_ORIGIN)
+      "origin": "${CLIENT_ORIGIN}"
     }
   }
 }
